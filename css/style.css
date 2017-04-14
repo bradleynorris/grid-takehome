@@ -45,8 +45,59 @@
   height: 150px;
 }
 
+
 .footer {
   background-color: black;
   height: 60px;
   color: white;
+}
+
+/*Less than 375*/
+
+@media only screen and (min-width: 500px) {
+  .header {
+    background-color: white;
+  }
+  .navi {
+    background-color: grey;
+  }
+  .content {
+    background-color: black;
+    color: white;
+  }
+  .aside {
+    background-color: white;
+  }
+  .promo {
+    background-color: grey;
+  }
+  .footer {
+    background-color: white;
+    color: white;
+  }
+}
+
+/* Less than 768 */
+
+@media only screen and (min-width: 768px) {
+  .header {
+    background-color: #ffe6e6;
+  }
+  .navi {
+    background-color: #ff3333;
+  }
+  .content {
+    background-color: #660000;
+    color: white;
+  }
+  .aside {
+    background-color: #ff9999;
+  }
+  .promo {
+    background-color: #ff0000;
+  }
+  .footer {
+    background-color: #ffe6e6;
+    color: white;
+  }
 }
