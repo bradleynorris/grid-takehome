@@ -13,6 +13,7 @@
 
 .col-md-3 {
   border: 1px solid black;
+  height: 100px;
 }
 
 .col-md-12 {
