@@ -1,10 +1,7 @@
 .container-fluid {
   background-color: yellow;
-  padding: 80px 20px 40px;
+  padding: 80px 40px 40px;
   border: 1px solid black;
-}
-
-.container {
 }
 
 .row {
@@ -13,7 +10,6 @@
 
 .col-md-3 {
   border: 1px solid black;
-  height: 100px;
 }
 
 .col-md-12 {
@@ -26,31 +22,31 @@
 
 .header {
   background-color: blue;
-  height: 100px;
+  height: 150px;
 }
 
-.nav {
+.navi {
   background-color: green;
-  height: 40px;
+  height: 60px;
 }
 
 .content {
   background-color: red;
-  height: 120px;
+  height: 180px;
 }
 
 .aside {
   background-color: aqua;
-  height: 120px;
+  height: 180px;
 }
 
 .promo {
   background-color: orange;
-  height: 100px;
+  height: 150px;
 }
 
 .footer {
   background-color: black;
-  height: 40px;
+  height: 60px;
   color: white;
 }
